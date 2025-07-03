@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rule Botics 🤖</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f6f0fa;
+      color: #333;
+    }
+
+    header {
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      height: 70px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px 40px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #5a4d70;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #6e5f85;
+      max-width: 700px;
+      margin: 0 auto 30px auto;
+    }
+
+    .start-button {
+      padding: 14px 32px;
+      font-size: 1.1rem;
+      background-color: #a188f2;
+      color: #fff;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .start-button:hover {
+      background-color: #7f62dd;
+    }
+
+    .about-section {
+      background: #ffffff;
+      border-radius: 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      max-width: 850px;
+      margin: 60px auto;
+      padding: 40px 30px;
+      text-align: center;
+    }
+
+    .about-section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #5c4a75;
+    }
+
+    .about-section p {
+      font-size: 1.1rem;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 18px;
+    }
+
+    .back-button {
+      margin-top: 30px;
+      background: transparent;
+      border: 2px solid #a188f2;
+      color: #a188f2;
+      padding: 10px 24px;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #a188f2;
+      color: #fff;
+    }
+
+    footer {
+      background: #f1eaf9;
+      color: #777;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.95rem;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 768px) {
+      .hero h1 {
+        font-size: 2.2rem;
+      }
+      .logo {
+        height: 55px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <h1>Rule Botics 🤖</h1>
+    <p>Your friendly rule-based assistant for tea, coffee, and more! Get types, recipes & history in a single chat.</p>
+    <button class="start-button" onclick="window.open('https://cdn.botpress.cloud/webchat/v3.0/shareable.html?configUrl=https://files.bpcontent.cloud/2025/07/02/08/20250702083545-YRHHH7MI.json', '_blank')">Start Chat</button>
+  </div>
+
+  <section class="about-section">
+    <h2>🧠 About Rule Botics</h2>
+
+    <p><strong>Rule Botics</strong> is a rule-based virtual assistant created to guide users through the diverse and flavorful world of tea and coffee. Designed with simplicity and accuracy in mind, it delivers clear, structured information without the need for internet searches or external links.</p>
+
+    <p>Whether you're curious about black teas like Assam or Keemun, herbal infusions like chamomile and rooibos, or coffee styles such as espresso, latte, or mocha — Rule Botics presents everything in categorized, easy-to-navigate flows.</p>
+
+    <p>You can explore detailed step-by-step recipes, learn about the cultural and historical roots of each drink, or browse by category to discover new varieties you’ve never tried before. The bot is built using a rule-based flow, ensuring precise and predictable responses every time.</p>
+
+    <p>Rule Botics also supports chat history, so you can return to your previous questions or recipes at any time. It’s perfect for tea and coffee enthusiasts, hobbyists, students, and anyone looking to expand their knowledge one sip at a time.</p>
+
+    <button class="back-button" onclick="scrollToTop()">⬆ Back to Chat</button>
+  </section>
+
+  <footer>
+    &copy; 2025 Rule Botics | Created by Rinkita ☕🤖
+  </footer>
+
+  <script>
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+</html>
